@@ -1,0 +1,82 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	Title = "Hub",  	
+
+Text = "Hub script",
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "wait...",  	
+
+Text = "loading...",
+
+})
+
+wait()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "loaded!",  	
+
+Text = "Have fun!",
+
+})
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("HUB | Script", "LightTheme")
+
+local Tab1 = Window:NewTab("Home")
+local Section1 = Tab1:NewSection("x HOME x")
+
+Section1:NewLabel("Welcome to | Hub!")
+Section1:NewLabel("ENJOY THE SCRIPT!!")
+
+local Tab2 = Window:NewTab("GameHub")
+local Section2 = Tab2:NewSection("x GameHub x")
+
+Section2:NewButton("Game Hub v4", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game-Hub/main/loader"))()    
+  print("GameHub : Loaded")
+end)
+
+Section2:NewButton("Game Hub 6.1v", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-Script/main/Games%20Hub%20(Always%20updated)"))()   
+  print("GameHub : Loaded")
+end)
+
+Section2:NewButton("Game Hub 9cv", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-HUB-Destroyer-V4/main/Games%20HUB%20Destroyer%20V4"))()   
+  print("GameHub : Loaded")
+end)
+
+Section2:NewButton("Gigachad Gamehub", "?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Gigachad%20Hub%20V4'))()   
+  print("GameHub : Loaded")
+end)
+
+local Tab3 = Window:NewTab("rblx scripts")
+local Section3 = Tab3:NewSection("x scripts x")
+
+Section3:NewLabel("updating scripts | weekly")
+
+local Tab4 = Window:NewTab("Executors")
+local Section4 = Tab4:NewSection("x Executors x")
+
+Section4:NewButton("KRNL", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wtfplayer/redemption/main/krnlnoui.lua"))()  
+  print("Krnl executor")
+end)
+
+Section4:NewButton("Synapse X", "?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/Synapse-X-Remake.lua"))() 
+  print("Synapse X executor")
+end)
+
+
+
+
+
+
+
+
+
